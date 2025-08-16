@@ -69,7 +69,19 @@ portfolio/
    yarn install
    ```
 
-3. **Start the development server**
+3. **Set up environment variables**
+   ```bash
+   # Copy the example environment file
+   cp .env.example .env
+   ```
+   Then edit `.env` and add your EmailJS credentials:
+   - Go to [EmailJS.com](https://emailjs.com) and create an account
+   - Create a service (Gmail, Outlook, etc.)
+   - Create an email template
+   - Get your Service ID, Template ID, and Public Key
+   - Replace the values in `.env` with your actual credentials
+
+4. **Start the development server**
    ```bash
    npm start
    # or

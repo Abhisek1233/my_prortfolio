@@ -1,16 +1,21 @@
 // EmailJS Configuration
 // Please follow these steps to setup email functionality:
 // 1. Go to https://emailjs.com and create an account
-// 2. Create a service (Gmail, Outlook, etc.)service_65chs7x
+// 2. Create a service (Gmail, Outlook, etc.)
 // 3. Create an email template
 // 4. Get your User ID from the dashboard
-// 5. Replace the values below with your actual EmailJS credentials
+// 5. Add your credentials to the .env file in the root directory
 
 export const emailJSConfig = {
-  serviceId: 'service_eyfi0s9', // Replace with your EmailJS service ID
-  templateId: 'template_kzokdhb', // Replace with your EmailJS template ID
-  userId: 'CZckSvK8BFs8AaL5o' // Replace with your EmailJS user ID (public key)
+  serviceId: process.env.REACT_APP_EMAILJS_SERVICE_ID,
+  templateId: process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+  userId: process.env.REACT_APP_EMAILJS_PUBLIC_KEY
 };
+
+// Validate that environment variables are loaded
+if (!emailJSConfig.serviceId || !emailJSConfig.templateId || !emailJSConfig.userId) {
+  console.warn('EmailJS configuration is incomplete. Please check your .env file.');
+}
 
 // Example template variables you should use in your EmailJS template:
 // {{from_name}} - The name from the form
