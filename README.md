@@ -2,7 +2,8 @@
 
 A modern, responsive portfolio website built with React.js, featuring smooth animations, dark mode, and a clean design to showcase my projects and skills.
 
-![Portfolio Preview](src/asstes/portfolio-preview.png)
+![Portfolio Preview](<img width="1902" height="927" alt="image" src="https://github.com/user-attachments/assets/9ffe544d-c807-4ee3-9ab8-4609ffdde4b8" />
+)
 
 ## ✨ Features
 
@@ -260,5 +261,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ⭐ If you found this project helpful, please give it a star!
 
 🐛 Found a bug? [Create an issue](https://github.com/Abhisek1233/portfolio/issues)
+
 
 💡 Have a suggestion? [Start a discussion](https://github.com/Abhisek1233/portfolio/discussions)
