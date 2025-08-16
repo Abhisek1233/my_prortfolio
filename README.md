@@ -2,8 +2,8 @@
 
 A modern, responsive portfolio website built with React.js, featuring smooth animations, dark mode, and a clean design to showcase my projects and skills.
 
-![Portfolio Preview](<img width="1902" height="927" alt="image" src="https://github.com/user-attachments/assets/9ffe544d-c807-4ee3-9ab8-4609ffdde4b8" />
-)
+![Portfolio Preview]<img width="1896" height="924" alt="image" src="https://github.com/user-attachments/assets/0ee2b85d-f6d3-429c-876b-4beaeca69ad5" />
+
 
 ## ✨ Features
 
@@ -237,9 +237,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Abhisek Pradhan**
-- 🌐 Website: [Your Portfolio URL](https://your-portfolio-url.com)
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- 🌐 Website: (https://your-portfolio-url.com)
+- 📧 Email: abhisekbehera506@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/abhisek-behera-a797b3273/
 - 🐱 GitHub: [@Abhisek1233](https://github.com/Abhisek1233)
 
 ## 🙏 Acknowledgments
@@ -260,7 +260,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ If you found this project helpful, please give it a star!
 
-🐛 Found a bug? [Create an issue](https://github.com/Abhisek1233/portfolio/issues)
+🐛 Found a bug? [Create an issue](https://github.com/Abhisek1233/my_prortfolio)
 
 
-💡 Have a suggestion? [Start a discussion](https://github.com/Abhisek1233/portfolio/discussions)
+💡 Have a suggestion? [Start a discussion](https://github.com/Abhisek1233/my_prortfolio)
+
