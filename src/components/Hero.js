@@ -15,7 +15,7 @@ const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [currentRole, setCurrentRole] = useState(0);
   const { scrollY } = useScroll();
-  const { ref, inView } = useScrollAnimation({ threshold: 0.1 });
+  const { ref } = useScrollAnimation({ threshold: 0.1 });
   
   const roles = [
     "MERN Stack Developer",
@@ -33,7 +33,7 @@ const Hero = () => {
       setCurrentRole((prev) => (prev + 1) % roles.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [roles.length]);
 
   const scrollToContact = () => {
     const element = document.getElementById('contact');

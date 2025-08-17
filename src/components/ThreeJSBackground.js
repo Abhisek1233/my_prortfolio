@@ -278,8 +278,6 @@ function DynamicLights() {
 
 // Background Stars
 function BackgroundStars() {
-  const { isDarkMode } = useDarkMode();
-  
   return (
     <Stars
       radius={100}
